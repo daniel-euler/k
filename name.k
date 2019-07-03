@@ -38,7 +38,11 @@ const sql = `select * from table where name = ? and age = ?`
 const pi  = 3.1415926
 const int a = 1
 const string b = "bbbbbb"
-
+const string c = 'cccc'
+const string daniel= "leinad"
+const string d = `my name is ${ daniel } `
+枚举：
+enum Color {Red, Green, Blue}
 
 int    a
 int    a,b,c,d
@@ -54,7 +58,7 @@ string a,b,c = "1","2","3"
 int    a,b,c = 1 , _ , 3
 i8     a,b,c = 1 , _ , 3
 
-元组:
+元组: （typesripe中还有any)
     tup x(int ,f32 , string)
         x :=(1 ,2.0 , "3")
 pub tup x(int ,f32 , string) = (1 ,2.0 , "3")
