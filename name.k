@@ -1,46 +1,4 @@
-注释：
-// test
-/*
-test
-*/
 
-模块：
-mod name
-
-导入：
-import "a/b/c/d"
-import pkg "a/b/c/d" 
-import pkg_v123456 "a/b/c/d" -v 123456
-import pkg_vabcdef "a/b/c/d" -v abcdef
-import _ "a/b/c/d"
-import (
-    "a/b/c"
-    "a/b/c/d"
-    "a/b/c/d/e"
-    "a/b/c/d/e" -v 123456
-)
-
-本地导入：
-local import "k/n/m"
-
-外调：
-@* -language go  -xmod gotest
-var a int
-import "fmt"
-func T() {
-   a = 123
-   fmt.Println(a)
-}
-*@
-
-
-const sql = `select * from table where name = ? and age = ?`
-const pi  = 3.1415926
-const int a = 1
-const string b = "bbbbbb"
-const string c = 'cccc'
-const string daniel= "leinad"
-const string d = `my name is ${ daniel } `
 枚举：
 enum Color {Red, Green, Blue}
 
