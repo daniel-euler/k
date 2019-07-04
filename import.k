@@ -11,7 +11,7 @@ import (
     "a/b/c"
     "a/b/c/d"
     "a/b/c/d/e"
-    "a/b/c/d/e" -v 123456
+  pkg_v123456  "a/b/c/d/e" -v 123456
 )
 
 本地导入：
