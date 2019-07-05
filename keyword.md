@@ -34,6 +34,6 @@
 - enum
 - aoit
 - any
-
+- class
 
 
