@@ -36,7 +36,6 @@ kpm tup x(int ,f32 , string) = (1 ,2.0 , "3")
    mut []u16    h = [1] 
    mut []u16    h[0] = [1] 
    mut []u16    h[1,3,5] = [1,3,5] 
-
 结构体：
 struct a {
     pub int      a = 1
@@ -61,8 +60,9 @@ struct a {
     kpm (
         i64           o
         i8            p
-        map[i8]string Q = Q[1]"abcd"
+        map{i8:string} Q = Q{1:"abcd"}
         map[i8]skm    QQ
+        a := map<int:string>
         )
 pub   fn a (int a,b string c ,d) int
 pub   [
