@@ -1,5 +1,5 @@
 模块：
-mod name
+mod name -tag=v1.2.3 -mm=0(1,2)
 
 导入：
 import "a/b/c/d"
