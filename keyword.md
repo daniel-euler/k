@@ -1,39 +1,39 @@
-i8 i16 i32(int) i64 i128 i1024
-u8(byte) u16 u32 u64 u128 u1024
-f32 f64 fc1(货币11123.4) fc2(货币11123.45) fc3(货币11123.456)
-string
-[]
-map
-tup
-pub
-mut
-kpm
-struct
-interface
-fn
-for
-if
-else
-break
-continue
-goto
-go
-in
-or
-return
-match
-switch
-case
-default
-fallthrough
-chan
-true
-false
-nil
-bool
-enum
-aoit
-any
+- i8 i16 i32(int) i64 i128 i1024
+- u8(byte) u16 u32 u64 u128 u1024
+- f32 f64 fc1(货币11123.4) fc2(货币11123.45) fc3(货币11123.456)
+- string
+- []
+- map
+- tup
+- pub
+- mut
+- kpm
+- struct
+- interface
+- fn
+- for
+- if
+- else
+- break
+- continue
+- goto
+- go
+- in
+- or
+- return
+- match
+- switch
+- case
+- default
+- fallthrough
+- chan
+- true
+- false
+- nil
+- bool
+- enum
+- aoit
+- any
 
 
 
