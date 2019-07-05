@@ -1,1 +1,1 @@
-a := fn(a) {return a+b }
+a := map<int,string>
