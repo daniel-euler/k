@@ -5,6 +5,6 @@ const string b = "bbbbbb"
 const string c = 'cccc'
 const string daniel= "leinad"
 const string d = `my name is ${ daniel } `
-const foo := struct {
+const foo = struct {
      [5]i32  array,
 }
