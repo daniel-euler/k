@@ -13,3 +13,8 @@ pub impl people {
       println(self.name)
     }
 }
+impl people {
+    get_name() {
+      println(self.name)
+    }
+}
