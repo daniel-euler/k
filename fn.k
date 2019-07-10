@@ -7,7 +7,7 @@ fn print_name(int x,y string x) {
     print("$name age:${x+y}")
 }
 fn name() int {
-   return fn() int {
+   return fn g() int {
          a+1
    }
 }
