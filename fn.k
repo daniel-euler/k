@@ -11,3 +11,14 @@ fn name() int {
          a+1
    }
 }
+mould a {
+i8 a,
+i16 b,
+i32 c,
+i64 d,
+string e
+}
+pub fn age(mould a) {
+
+}
+
