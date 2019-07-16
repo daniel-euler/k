@@ -6,10 +6,10 @@ fn print_name(int x,y string x) {
     print(x,y)
     print("$name age:${x+y}")
 }
-fn name() int {
-   return fn g() int {
-         a+1
-   }
+fn name(int a) => int {
+      return fn() => int {
+                return a+1
+             }
 }
 mould a {
 i8 a,
@@ -37,3 +37,17 @@ fn a() => (int,error) {
 fn a()  (int,error) {
    return 1+2,nil
 } 
+
+fn a(int a ,string b ="123")  (int,error) {
+   return 1+2,nil
+} 
+
+fn a(int a, ...string b) => (int,error) {
+   return 1+2,nil
+} 
+
+fn a<T b> => T {
+   return b
+}
+
+ifor() true: or false: 
