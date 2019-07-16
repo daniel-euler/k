@@ -22,3 +22,6 @@ pub fn age(mould a) {
 
 }
 
+fn a() {
+return 1+2,nil
+} (int,error)
