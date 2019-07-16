@@ -23,5 +23,17 @@ pub fn age(mould a) {
 }
 
 fn a() {
-return 1+2,nil
-} (int,error)
+   return 1+2,nil
+} => (int,error)
+
+fn a() :(int,error) {
+   return 1+2,nil
+} 
+
+fn a() => (int,error) {
+   return 1+2,nil
+} 
+
+fn a()  (int,error) {
+   return 1+2,nil
+} 
