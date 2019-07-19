@@ -50,4 +50,38 @@ fn a<T b> => T {
    return b
 }
 
-ifor() true: or false: 
+ m :=  ( 1>2)? : 
+ 
+ fn() or {
+   
+ }
+ fn b() i8 {
+      if {
+         return 1
+      }else if {
+         => 2
+      }else{
+        return error.New("1")
+      }
+   }
+fn errorEx() {
+  c:=b() or {
+  print(err)
+  }
+  king :=b()?
+  king.err
+  king.name
+     if a>0 {
+   }
+  k,err:=b()
+  err = b()
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
