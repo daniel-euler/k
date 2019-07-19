@@ -25,6 +25,7 @@
 - fn
 - for
 - if
+- force
 - else
 - break
 - continue
