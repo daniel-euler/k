@@ -16,6 +16,9 @@ string a,b,c = "1","2","3"
 int    a,b,c = 1 , _ , 3
 i8     a,b,c = 1 , _ , 3
 
+force int a -> i8 a
+let  a = b
+
 元组: （typesripe中还有any)
     tup x(int ,f32 , string)
         x :=(1 ,2.0 , "3")
