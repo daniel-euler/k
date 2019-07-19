@@ -3,7 +3,7 @@ x := map<int:string>{
   2:"ddd",
 }
 a := map<int:string>
-a.store(8,"a")
+a.insert(8,"a")
 a.delete(8)
 exist :=a.find(8) (string,bool)
 a.upsert(8,"b") bool
