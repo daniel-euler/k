@@ -25,6 +25,7 @@ let  a = b
 pub tup x(int ,f32 , string) = (1 ,2.0 , "3")
 mut tup x(int ,f32 , string) = (1 ,2.0 , "3")
 kpm tup x(int ,f32 , string) = (1 ,2.0 , "3")
+const tup x = (1 ,2.0 , "3")
 
 数组:
        []i8     c
