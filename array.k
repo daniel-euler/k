@@ -1,7 +1,7 @@
 数组:
-       [9]string d
-       [20]int   dd
-       [2][9]int  dd    //[2]([9]int)
+       [9]*string d
+       [20]*int   dd
+       *[2][9]int  dd    //[2]([9]int)
        [2][]i8 l  //[2]([]i8) 
        [2]map<int:string> m
        [0]i8       //错误数组长度不可为0;
