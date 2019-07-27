@@ -10,8 +10,9 @@ struct a {
    bool   ok   = true,
 }
 
-
-User a { string name = "string",int age  = 18, bool ok = true,}
+User a;
+User a = { string name = "string",int age  = 18, bool ok = true,}
+ a := User{ string name = "string",int age  = 18, bool ok = true,}
 
 fn() {
 for i in 1...10 {
@@ -38,6 +39,6 @@ for i in 1...10 {
   age:  i,
   ok:   true,
   }
-  user = User {"daniel",i,true}
-  user = User {"tom",i,_}
+  user = User{"daniel",i,true}
+  user = User{"tom",i,_}
 }
