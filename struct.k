@@ -11,7 +11,7 @@ struct a {
 }
 
 
-struct a { string name = "string",int age  = 18, bool ok = true,}
+User a { string name = "string",int age  = 18, bool ok = true,}
 
 fn() {
 for i in 1...10 {
