@@ -34,24 +34,18 @@ fn a()  -> (int,error) {
    return 1+2,nil
 } 
                             
-fn a(int a ,string b ="123") -> (int,error) {
+fn a(int: a ,string: b ="123") -> (int,error) {
    return 1+2,nil
 } 
 
-fn a(int a, ...string b) => (int,error) {
+fn a(int: a, ...string: b) => (int,error) {
    return 1+2,nil
 } 
 
 fn a<T b> => T {
    return b
 }
-
- m :=  ( 1>2)? : 
- 
- fn() or {
-   
- }
- fn b() i8 {
+ fn b() -> i8 {
       if {
          return 1
       }else if {
@@ -77,7 +71,6 @@ struct n {}
 struct l {}
  
  fn (m:a,b, n:c, l:d) {}
- fn (m a,b, n c, l d) {}
  
  
  
