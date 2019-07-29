@@ -6,9 +6,9 @@ fn print_name(int x,y string x) {
     print(x,y)
     print("$name age:${x+y}")
 }
-fn name(int a) => int {
-      return fn() => int {
-                return a+1
+fn name(int: a) -> int {
+      return fn() -> int {
+                 return a+1
              }
 }
 mould a {
@@ -18,27 +18,23 @@ i32 c,
 i64 d,
 string e
 }
-pub fn age(mould a) {
+pub fn age(mould: a) {
 
 }
 
-fn a() {
-   return 1+2,nil
-} => (int,error)
-
-fn a() :(int,error) {
+fn a() -> (int,error) {
    return 1+2,nil
 } 
 
-fn a() => (int,error) {
+fn a() -> (int,error) {
    return 1+2,nil
 } 
 
-fn a()  (int,error) {
+fn a()  -> (int,error) {
    return 1+2,nil
 } 
-
-fn a(int a ,string b ="123")  (int,error) {
+                            
+fn a(int a ,string b ="123") -> (int,error) {
    return 1+2,nil
 } 
 
@@ -76,8 +72,12 @@ fn errorEx() {
   k,err:=b()
   err = b()
 }
+struct m {}
+struct n {}
+struct l {}
  
- 
+ fn (m:a,b, n:c, l:d) {}
+ fn (m a,b, n c, l d) {}
  
  
  
