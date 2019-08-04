@@ -1,5 +1,5 @@
 模块：
-mod name
+pkg name
 
 导入：
 import "a/b/c/d"
