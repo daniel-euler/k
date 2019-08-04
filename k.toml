@@ -1,0 +1,6 @@
+[package]
+name = "test"
+k    = "v1.2.3"
+mm   = 0(1,2)内存模式  
+llvm = "v9.0.0"
+authors = "daniel@k.com"
