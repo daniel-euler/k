@@ -1,11 +1,11 @@
 模块：
-mod name -tag=v1.2.3 -mm=0(1,2)
+mod name
 
 导入：
 import "a/b/c/d"
 import pkg "a/b/c/d" 
-import pkg_v123456 "a/b/c/d" -v 123456
-import pkg_vabcdef "a/b/c/d" -v abcdef
+import pkg_v123456 "a/b/c/d" -v 1.2.3
+import pkg_vabcdef "a/b/c/d" -gh abcdef(githash)
 import _ "a/b/c/d"
 import (
     "a/b/c"
