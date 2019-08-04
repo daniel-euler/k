@@ -1,6 +1,3 @@
-模块：
-pkg name
-
 导入：
 import "a/b/c/d"
 import pkg "a/b/c/d" 
