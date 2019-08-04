@@ -12,7 +12,7 @@ a := if a>1 {
  return 1
  }
 
-var f{
+var if f{
    111111  
 || 22222    
 || 33333   
