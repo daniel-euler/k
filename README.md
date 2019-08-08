@@ -1,3 +1,3 @@
 # k
 
-fast, gc or no gc, easy, pkg manage 
+fast, gc or no gc, easy, Package Management
