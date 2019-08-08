@@ -1,4 +1,5 @@
 导入：
+pkg import
 import "a/b/c/d"
 import pkg "a/b/c/d" 
 import pkg_v123456 "a/b/c/d" -v 1.2.3
