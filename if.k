@@ -33,3 +33,4 @@ if @f {
 
 if true {} <=> if !false {}
 
+ if a == false {} 
