@@ -30,3 +30,6 @@ var if f{
 if @f {
 
 }
+
+if true {} <=> if !false {}
+
