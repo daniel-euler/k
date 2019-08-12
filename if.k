@@ -34,3 +34,8 @@ if @f {
 if true {} <=> if !false {}
 
  if a == false {} 
+ where  a==1 or a == 2 and b == 2 {}
+ where  a in 1...2 {}
+ where  a in 1...10 {}
+
+
