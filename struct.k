@@ -4,14 +4,15 @@ struct User {
    bool   ok,
 }
 struct User {string name,int age,bool ok,}
-struct a {
+//设置struct默认值，如果未设置，则以类型默认填充。
+struct User {
    string name = "string",
    int    age,
    bool   ok   = true,
 }
 
-User a;
-User a = { string name = "string",int age  = 18, bool ok = true,}
+var User a;
+var User a = { string name = "string",int age  = 18, bool ok = true,}
  a := User{ string name = "string",int age  = 18, bool ok = true,}
 
 fn() {
