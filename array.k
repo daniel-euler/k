@@ -1,4 +1,7 @@
 数组:
+       Arr<i8, 3>
+       let a = Arr.new(0i8, 3);
+       let b = arr![2,3,4,3];
        [9]*string d
        [20]*int   dd
        *[2][9]int  dd    //[2]([9]int)
